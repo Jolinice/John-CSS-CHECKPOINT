@@ -1,0 +1,335 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.background{
+    background-image: url(./pexels-pixabay-268533.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background:black;
+
+    height: 80px;
+    padding: 10px;
+    margin-top:0;
+    align-items: center;
+    /* color: orangered; */
+    /* display: flex;
+    justify-content: flex-end; */
+    border-bottom:2px solid orangered;
+   
+}
+
+.logo{
+color: white;
+font-size: xx-large;
+margin-left: 15px;
+cursor: pointer;
+   
+}
+
+span{
+    color: orangered;
+}
+.main ul li{
+    
+    padding:0;
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: sticky;
+   
+    
+
+}
+.main ul li a{
+    color: orangered;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.main ul li a:hover {
+  background: black;
+  color: white;
+}
+
+ .log{
+    width: 500px;
+    size: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+ }
+
+#p{
+    padding: 19px;
+    
+}
+.resume{
+    background: black;
+    color: whitesmoke;
+    padding: 10px;
+    list-style: none;
+    /* border: 2px solid; */
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+h3{
+    color: orangered;
+}
+.item{
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-around;
+   
+    /* width: 1100px; */
+}
+
+.back{
+    background: rgb(52, 32, 32);
+    width: 380px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 90px;
+    border-radius: 10px 20px 10px;
+    letter-spacing: 5px;
+    padding: 15px 0 0 0;
+}
+.para{
+    letter-spacing: normal;
+    line-height: 2;
+    margin-top: 3px;
+    padding: 0 5px;
+   
+
+}
+#student{
+    margin-top: 5px;
+}
+.btn{
+    background: orangered;
+    margin-top: 10px;
+    border: none;
+    color: black;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color: orangered;
+     background: black;
+}
+    .deep{
+        background: rgb(50, 108, 130);
+        
+    }
+
+
+   #connect{
+    background: orangered;
+    border: 2px solid orangered;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+   }
+   
+   #connect:hover{
+    text-decoration: none;
+    background: black;
+    color: white;
+    
+
+   }
+   #work{
+    text-align: center;
+    margin-top: 50px;
+color: orangered;
+    
+    
+    
+   }
+   #table{
+    width: 100%;
+  
+   }
+   #table td, th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+   }
+   #table tr:hover{
+    background-color: burlywood;
+   }
+   #table th{
+    padding: 12px;
+    background-color: orangered;
+    color: white;
+    
+   }
+   #level{
+    margin-bottom: 30px;
+   }
+   #dummy{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: orangered;
+    color: white;
+    padding: 10px;
+   }
+
+   iframe{
+    width: 50%;
+    height: 450px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 300px;
+   
+   }
+   form{
+    background: blanchedalmond;
+    width: auto;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding: 20px;
+   }
+   label{
+    font-size: 20px;
+    font-weight: bold;
+   }
+   input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   }
+   #gender{
+    margin-top: 30px;
+   }
+   #cont{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+   }
+   #fill{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: auto;
+   }
+   .radio{
+    font-weight: bold;
+   }
+   .footer{
+    background: black;
+    color: white;
+    border-top: 2px solid orangered;
+   width: 100%;
+    margin-top: 30px;
+    padding: 8px;
+   }
+   #visit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   .social{
+    padding: 15px;
+
+   }
+   img{
+    border-radius: 50%;
+    border: 2px solid orangered;
+    width: 300px;
+    margin-top: 30px;
+   }
+   #css{
+    text-align: center;
+    margin-top: 10px;
+   }
+ .footer{
+    background: rgb(52, 32, 32);
+    
+ }
+ .footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+ }
+ .smallicons{
+    display: flex;
+    justify-content: center;
+   
+ }
+ .smallicons a{
+    text-decoration: none;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+ }
+ .smallicons a i{
+    font-size: 32px;
+    color: orangered;
+    padding: 8px;
+    opacity: 0.9;
+ }
+ .smallicons a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    
+ }
+ .footernav{
+    margin: 30px 0;
+ }
+ .footernav ul{
+display: flex;
+justify-content: center;
+ }
+ .footernav ul li{
+    margin: 12px;
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    transition: 0.5s;
+ }
+ .footernav ul li a{
+    text-decoration: none;
+    color: white;
+
+ }
+ .footernav ul li a:hover{
+ color: orangered;
+ cursor: pointer;
+ }
+ .footercopyright{
+background: black;
+height: 20px;
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 30px;
+font-size: x-large;
+ }
+ 
